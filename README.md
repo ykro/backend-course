@@ -1,6 +1,6 @@
 # Crea tu backend con FastAPI y Python asistido por IA
 
-Curso en línea de tres unidades. En cada una construyes una API con FastAPI y Python, con tests desde el primer paso, y trabajas con un agente de código sin perder el control de lo que entra a tu proyecto: le pides el código, revisas el diff y lo compruebas con los tests.
+Curso en línea de tres unidades. En cada una construyes un API con FastAPI y Python, con tests desde el primer paso, y trabajas con un agente de código sin perder el control de lo que entra a tu proyecto: le pides el código, revisas el diff y lo compruebas con los tests.
 
 Este repositorio es el índice del curso. El código de cada unidad está en su propia plantilla de GitHub, con el proyecto base, los tests y la integración continua listos.
 
@@ -12,7 +12,7 @@ Este repositorio es el índice del curso. El código de cada unidad está en su 
 | :--- | :--- | :--- |
 | 1 | [`backend-course-u1-splitmate`](https://github.com/ykro/backend-course-u1-splitmate) | **SplitMate API**, para repartir los gastos de un grupo: contratos HTTP, Pydantic v2, dinero exacto con `Decimal`, capas y pytest. El reto: un `PATCH` parcial de un gasto, atómico y con recálculo. |
 | 2 | [`backend-course-u2-estatehub-sql`](https://github.com/ykro/backend-course-u2-estatehub-sql) | **EstateHub SQL**, la agenda de visitas de una inmobiliaria: SQLModel, patrón Repository, `JOIN`, paginación, consultas N+1 y concurrencia. El reto: reprogramar visitas sin choques y armar la agenda de una agencia. |
-| 3 | [`backend-course-u3-estatehub-cloud`](https://github.com/ykro/backend-course-u3-estatehub-cloud) | **EstateHub Cloud**, la misma API lista para producción: JWT, contraseñas, protección contra IDOR, CSP y CORS, y despliegue en Cloud Run desde GitHub Actions sin llaves. El reto: protección contra fuerza bruta en el login. |
+| 3 | [`backend-course-u3-estatehub-cloud`](https://github.com/ykro/backend-course-u3-estatehub-cloud) | **EstateHub Cloud**, el mismo API listo para producción: JWT, contraseñas, protección contra IDOR, CSP y CORS, y despliegue en Cloud Run desde GitHub Actions sin llaves. El reto: protección contra fuerza bruta en el login. |
 
 ## Cómo empezar
 
