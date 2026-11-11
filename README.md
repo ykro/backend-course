@@ -25,7 +25,7 @@ Este repositorio es el índice del curso. El código de cada unidad está en su 
    uv run pytest -v   # al inicio: la demo en verde; el taller y el reto en rojo
    ```
 
-El `README.md` de cada plantilla trae el contrato del reto, qué archivos puedes modificar y la lista para revisar antes de entregar.
+El `README.md` de cada plantilla explica cómo instalar y correr el proyecto. El contrato del reto, qué archivos puedes modificar y la lista para revisar tu trabajo están en la guía del reto de cada unidad, en el material del curso.
 
 ## Requisitos
 
