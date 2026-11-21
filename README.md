@@ -34,3 +34,15 @@ El `README.md` de cada plantilla explica cómo instalar y correr el proyecto. El
 - Un editor con un agente de código y las extensiones de Python y Ruff.
 - Unidad 3: una cuenta de Google Cloud con facturación activa y la CLI `gcloud`. Docker Desktop es opcional (una sola actividad).
 - Haber programado antes en algún lenguaje y usar la terminal a nivel básico. No necesitas experiencia previa con FastAPI.
+
+## Nivelación rápida antes de empezar (On-Ramp ~60 min)
+
+Si sientes que el curso arranca rápido o nunca has trabajado con HTTP, SQL o pruebas de APIs, dedica una hora a este repositorio antes de abrir la Unidad 1:
+
+- **Práctica paso a paso:** [`ykro/backend-onramp`](https://github.com/ykro/backend-onramp) (HTTP real, tu primera base de datos en SQLite, `Depends`, JWT y concurrencia).
+- **Solución explicada archivo por archivo:** [`ykro/backend-onramp-solution`](https://github.com/ykro/backend-onramp-solution).
+- **Índice de los tres on-ramp (Backend, Frontend y Android):** [`ykro/courses-onramp`](https://github.com/ykro/courses-onramp).
+
+## Paquete de 15 skills profesionales
+
+Este repositorio incluye [`skills/`](skills/README.md), un paquete de **15 skills de producción para Python y FastAPI** pensado para tu trabajo profesional fuera del curso (contratos HTTP, modelos Pydantic, pruebas `pytest`/`httpx`, auth JWT, OWASP API Top 10, rendimiento async, migraciones Alembic, versionado, Docker/Cloud Run y observabilidad). Instálalas en tu carpeta personal de skills (`~/.claude/skills/`, `~/.gemini/antigravity/skills/` o `~/.agents/skills/`), nunca dentro del repo de una unidad.
