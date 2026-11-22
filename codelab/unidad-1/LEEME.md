@@ -16,4 +16,4 @@ Cada bloque de código del codelab, en el orden en que aparece, con la sangría 
 | 5. Liquidación greedy | `paso-05-liquidacion-greedy/01-store.py` | `app/store.py` |
 | 5. Liquidación greedy | `paso-05-liquidacion-greedy/02-comandos.sh` | terminal, en la raíz de tu repositorio |
 | 6. Consola y calidad | `paso-06-consola-y-calidad/01-comandos.sh` | terminal, en la raíz de tu repositorio |
-| 7. Reto y rúbrica | `paso-07-reto-y-rubrica/01-comandos.sh` | terminal, en la raíz de tu repositorio |
+| 7. Reto y qué debe cumplir | `paso-07-reto-y-que-debe-cumplir/01-comandos.sh` | terminal, en la raíz de tu repositorio |

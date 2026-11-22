@@ -22,7 +22,7 @@ Las cinco primeras llevan el método del curso a tus proyectos. Las otras diez c
 | `fastapi-docker-cloud-run` | escribir el Dockerfile y desplegar en Cloud Run con secretos |
 | `fastapi-observabilidad` | logs estructurados, request id, trazas y alertas en producción |
 
-Instálalas en tu carpeta personal y nunca dentro del repositorio de una unidad del curso. Un archivo agregado fuera de tus carpetas cuenta como sospecha de integridad en la rúbrica, y una carpeta `.claude/skills/` o `.agents/skills/` dentro del repo cuenta como eso. Descomprime `backend-fastapi-skills.zip` y copia las quince carpetas de `skills/` (cada una con su `SKILL.md`) al lugar de tu herramienta.
+Instálalas en tu carpeta personal y nunca dentro del repositorio de una unidad del curso. Tu repositorio de la unidad solo lleva tu código, tus tests y tus documentos: una carpeta `.claude/skills/` o `.agents/skills/` dentro del repo mezcla tu herramienta con el proyecto. Descomprime `backend-fastapi-skills.zip` y copia las quince carpetas de `skills/` (cada una con su `SKILL.md`) al lugar de tu herramienta.
 
 1. Claude Code usa `~/.claude/skills/`.
 2. Antigravity usa `~/.gemini/antigravity/skills/`.

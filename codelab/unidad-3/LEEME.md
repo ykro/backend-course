@@ -21,4 +21,4 @@ Cada bloque de código del codelab, en el orden en que aparece, con la sangría 
 | 6. Despliegue guiado en Cloud Run | `paso-06-despliegue-guiado-en-cloud-run/03-comandos.sh` | terminal, en la raíz de tu repositorio |
 | 6. Despliegue guiado en Cloud Run | `paso-06-despliegue-guiado-en-cloud-run/04-comandos.sh` | terminal, en la raíz de tu repositorio |
 | 7. Reto autónomo: fuerza bruta | `paso-07-reto-autonomo-fuerza-bruta/01-fragmento.py` | ver el texto del paso en el codelab |
-| 8. Tests propios, ADR y rúbrica | `paso-08-tests-propios-adr-y-rubrica/01-comandos.sh` | terminal, en la raíz de tu repositorio |
+| 8. Tests propios, ADR y qué debe cumplir | `paso-08-tests-propios-adr-y-que-debe-cumplir/01-comandos.sh` | terminal, en la raíz de tu repositorio |
