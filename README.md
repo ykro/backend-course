@@ -46,3 +46,13 @@ Si sientes que el curso arranca rápido o nunca has trabajado con HTTP, SQL o pr
 ## Paquete de 15 skills profesionales
 
 Este repositorio incluye [`skills/`](skills/README.md), un paquete de **15 skills de producción para Python y FastAPI** pensado para tu trabajo profesional fuera del curso (contratos HTTP, modelos Pydantic, pruebas `pytest`/`httpx`, auth JWT, OWASP API Top 10, rendimiento async, migraciones Alembic, versionado, Docker/Cloud Run y observabilidad). Instálalas en tu carpeta personal de skills (`~/.claude/skills/`, `~/.gemini/antigravity/skills/` o `~/.agents/skills/`), nunca dentro del repo de una unidad.
+
+## Código de Tarea 0 y Codelabs por unidad
+
+También tienes en este repositorio el mismo código que aparece en los archivos `.zip` de cada unidad, listo para leer en GitHub o clonar directamente:
+
+| Unidad | Tarea 0 (koans de Python) | Codelab (código de referencia paso a paso) |
+| :--- | :--- | :--- |
+| 1 | [`tarea0/unidad-1`](tarea0/unidad-1/) | [`codelab/unidad-1`](codelab/unidad-1/) |
+| 2 | [`tarea0/unidad-2`](tarea0/unidad-2/) | [`codelab/unidad-2`](codelab/unidad-2/) |
+| 3 | [`tarea0/unidad-3`](tarea0/unidad-3/) | [`codelab/unidad-3`](codelab/unidad-3/) |

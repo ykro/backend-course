@@ -1,0 +1,2 @@
+app.config.ConfigurationError: No se puede arrancar EstateHub Cloud: configuración inválida.
+  - JWT_SECRET_KEY: JWT_SECRET_KEY usa un valor de ejemplo público; genera uno nuevo.

@@ -1,0 +1,20 @@
+[project]
+name = "unit3-task0-warmup"
+version = "0.2.0"
+description = "Tarea 0 de la Unidad 3: koans de seguridad (JWT, 401/403, CORS, XSS, secretos y Cloud Run)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+    "ruff>=0.8.0",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

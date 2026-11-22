@@ -15,3 +15,11 @@ Index of a three-unit online course (taught in Spanish). In each unit you build 
 **Pre-course On-Ramp (~60 min):** If you want a quick hands-on warm-up before Unit 1 (HTTP, SQLite SQL, `Depends`, JWT, and concurrency), start with [`ykro/backend-onramp`](https://github.com/ykro/backend-onramp) (step-by-step solution: [`ykro/backend-onramp-solution`](https://github.com/ykro/backend-onramp-solution); full index: [`ykro/courses-onramp`](https://github.com/ykro/courses-onramp)).
 
 **Professional Skills Pack (15 skills):** See [`skills/`](skills/README.md) for 15 production FastAPI skills for professional work beyond the course (API contracts, Pydantic, `pytest`/`httpx`, JWT auth, OWASP API security, async performance, Alembic migrations, versioning, Docker/Cloud Run, and observability).
+
+**Tarea 0 & Codelab code per unit:** The same code distributed as `.zip` files in each unit is also available directly in this repository:
+
+| Unit | Tarea 0 (Python koans) | Codelab (step-by-step reference code) |
+| :--- | :--- | :--- |
+| 1 | [`tarea0/unidad-1`](tarea0/unidad-1/) | [`codelab/unidad-1`](codelab/unidad-1/) |
+| 2 | [`tarea0/unidad-2`](tarea0/unidad-2/) | [`codelab/unidad-2`](codelab/unidad-2/) |
+| 3 | [`tarea0/unidad-3`](tarea0/unidad-3/) | [`codelab/unidad-3`](codelab/unidad-3/) |

@@ -1,0 +1,12 @@
+[project]
+name = "unit2-task0-sql-warmup"
+version = "0.1.0"
+description = "Tarea 0 de la Unidad 2: koans de paginación, intervalos, JOIN en memoria y generadores"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+    "ruff>=0.9.0",
+]
