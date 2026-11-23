@@ -12,7 +12,7 @@ Index of a three-unit online course (taught in Spanish). In each unit you build 
 
 **Requirements:** uv (installs Python 3.13), Git and a GitHub account, an editor with a coding agent; for Unit 3, a Google Cloud account with billing and the `gcloud` CLI.
 
-**Pre-course On-Ramp (~60 min):** If you want a quick hands-on warm-up before Unit 1 (HTTP, SQLite SQL, `Depends`, JWT, and concurrency), start with [`ykro/backend-onramp`](https://github.com/ykro/backend-onramp) (step-by-step solution: [`ykro/backend-onramp-solution`](https://github.com/ykro/backend-onramp-solution); full index: [`ykro/courses-onramp`](https://github.com/ykro/courses-onramp)).
+**Pre-course On-Ramp (2–3.5 h short U1 path / 3.5–5 h full):** If you want a hands-on warm-up before Unit 1 (HTTP, SQLite SQL, `Depends`, JWT, and concurrency), start with [`ykro/backend-onramp`](https://github.com/ykro/backend-onramp) (step-by-step solution: [`ykro/backend-onramp-solution`](https://github.com/ykro/backend-onramp-solution); full index: [`ykro/courses-onramp`](https://github.com/ykro/courses-onramp)).
 
 **Professional Skills Pack (15 skills):** See [`skills/`](skills/README.md) for 15 production FastAPI skills for professional work beyond the course (API contracts, Pydantic, `pytest`/`httpx`, JWT auth, OWASP API security, async performance, Alembic migrations, versioning, Docker/Cloud Run, and observability).
 

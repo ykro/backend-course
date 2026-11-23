@@ -35,9 +35,9 @@ El `README.md` de cada plantilla explica cómo instalar y correr el proyecto. El
 - Unidad 3: una cuenta de Google Cloud con facturación activa y la CLI `gcloud`. Docker Desktop es opcional (una sola actividad).
 - Haber programado antes en algún lenguaje y usar la terminal a nivel básico. No necesitas experiencia previa con FastAPI.
 
-## Nivelación rápida antes de empezar (On-Ramp ~60 min)
+## Nivelación rápida antes de empezar (On-Ramp: 2–3.5 h ruta corta U1 / 3.5–5 h completo)
 
-Si sientes que el curso arranca rápido o nunca has trabajado con HTTP, SQL o pruebas de APIs, dedica una hora a este repositorio antes de abrir la Unidad 1:
+Si sientes que el curso arranca rápido o nunca has trabajado con HTTP, SQL o pruebas de APIs, dedica 2–3.5 h (ruta corta U1) o 3.5–5 h (completo) a este repositorio antes de abrir la Unidad 1:
 
 - **Práctica paso a paso:** [`ykro/backend-onramp`](https://github.com/ykro/backend-onramp) (HTTP real, tu primera base de datos en SQLite, `Depends`, JWT y concurrencia).
 - **Solución explicada archivo por archivo:** [`ykro/backend-onramp-solution`](https://github.com/ykro/backend-onramp-solution).
