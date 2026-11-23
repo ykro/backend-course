@@ -17,3 +17,17 @@ Cada bloque de código del codelab, en el orden en que aparece, con la sangría 
 | 5. Taller 2: agendar sin colisiones | `paso-05-taller-2-agendar-sin-colisiones/02-fragmento.py` | ver el texto del paso en el codelab |
 | 5. Taller 2: agendar sin colisiones | `paso-05-taller-2-agendar-sin-colisiones/03-comandos.sh` | terminal, en la raíz de tu repositorio |
 | 6. Consola, ruff y seguridad | `paso-06-consola-ruff-y-seguridad/01-comandos.sh` | terminal, en la raíz de tu repositorio |
+
+# Escríbelo tú
+
+En este paso del codelab la pieza clave la escribes a mano, sin agente, antes de comparar con la referencia.
+
+## Paso 5. Taller 2: agendar sin colisiones
+
+**Escríbelo tú: la consulta de traslape.**
+
+**Pedido.** Esta pieza va a mano, sin agente. En `schedule_visit` de `app/repository.py`, después de comprobar que la propiedad existe y no está vendida, escribe la consulta que busca una visita de la misma propiedad que se traslape con la nueva, y lanza `VisitSlotConflictError` si la encuentra. El resto puedes escribirlo tú o pedírselo al agente con el pedido de este paso. Si el agente reescribe tu consulta, compara su versión con la tuya.
+
+**Pista.** Es un `select(Visit.id)` con tres condiciones en el `where`: la misma `property_id`, `scheduled_start` de la existente menor que el fin de la nueva y `scheduled_end` de la existente mayor que el inicio de la nueva. Con `.first()` te basta saber si hay una. Usa `<` y `>`, no `<=`: tocar el borde está permitido.
+
+**Verifica.** Corre `uv run pytest tests/test_workshop.py -k schedule_visit -v`. Los cuatro tests de `schedule_visit` deben pasar, entre ellos `test_schedule_visit_rejects_overlap_and_allows_contiguous`, que prueba el traslape y el borde, y `test_schedule_visit_is_atomic_under_concurrency`, que lanza 10 reservas en hilos. Si el de los bordes falla, revisa si usaste `<=`.

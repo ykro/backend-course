@@ -22,3 +22,17 @@ Cada bloque de código del codelab, en el orden en que aparece, con la sangría 
 | 6. Despliegue guiado en Cloud Run | `paso-06-despliegue-guiado-en-cloud-run/04-comandos.sh` | terminal, en la raíz de tu repositorio |
 | 7. Reto autónomo: fuerza bruta | `paso-07-reto-autonomo-fuerza-bruta/01-fragmento.py` | ver el texto del paso en el codelab |
 | 8. Tests propios, ADR y qué debe cumplir | `paso-08-tests-propios-adr-y-que-debe-cumplir/01-comandos.sh` | terminal, en la raíz de tu repositorio |
+
+# Escríbelo tú
+
+En este paso del codelab la pieza clave la escribes a mano, sin agente, antes de comparar con la referencia.
+
+## Paso 5. Guarda de dueño 403
+
+**Escríbelo tú: la guarda de dueño.**
+
+**Pedido.** Esta pieza va a mano, sin agente. Implementa `_get_owned_property_or_raise` en `app/repository.py`: busca el inmueble, responde 404 si no existe y 403 si quien llama no es el dueño ni admin, y devuelve el inmueble. Son pocas líneas, pero cada condición es una regla de seguridad. Si después usas el pedido de este paso y el agente reescribe tu guarda, compara su versión con la tuya.
+
+**Pista.** Primero `self.session.get(Property, property_id)`: si da `None`, lanza `PropertyNotFoundError`. Luego compara `prop.owner_agent_id` con `current_agent.id`; si no coinciden y `current_agent.role` no es `"admin"`, lanza `ForbiddenOwnerError`. El orden importa: la existencia va antes que el permiso.
+
+**Verifica.** Corre `uv run pytest tests/test_workshop.py -k enforces -v`. Los tres tests de la guarda deben pasar: `test_status_update_enforces_owner_or_admin`, `test_delete_enforces_owner_and_reports_missing` y `test_generate_pitch_enforces_owner_and_persists_headline`. Si falla el de admin, revisa la segunda condición.
